@@ -1,0 +1,67 @@
+[Error: 2024-03-12 07:59:31.1140208: localization.cpp(110)] No translation found for "Unable to download the launcher update. Launching previous version..."
+[Error: 2024-03-12 07:59:31.1141170: localization.cpp(110)] No translation found for "Unable to update the launcher."
+[Error: 2024-03-12 07:59:31.1141360: localization.cpp(110)] No translation found for "Unable to download the bootstrap update. Launching previous version..."
+[Error: 2024-03-12 07:59:31.1141536: localization.cpp(110)] No translation found for "Unable to update the bootstrap."
+[Error: 2024-03-12 07:59:31.1141884: localization.cpp(110)] No translation found for "Failed to initialize GDK, please make sure Xbox App and Gaming Services are up to date and running."
+[Info: 2024-03-12 07:59:31.1194006: NetQueue.cpp(32)] NetQueue: Setting up.
+[Info: 2024-03-12 07:59:31.1221869: NetQueue.cpp(414)] NetQueue: worker thread started.
+[Info: 2024-03-12 07:59:31.1225799: mainWindows.cpp(117)] Running launcher bootstrap (version 1.8.2)
+[Info: 2024-03-12 07:59:31.1254442: NetQueue.cpp(32)] NetQueue: Setting up.
+[Info: 2024-03-12 07:59:31.1258530: NetQueue.cpp(414)] NetQueue: worker thread started.
+[Error: 2024-03-12 07:59:31.1269310: localization.cpp(110)] No translation found for "Unable to download the launcher update. Launching previous version..."
+[Error: 2024-03-12 07:59:31.1269765: localization.cpp(110)] No translation found for "Unable to update the launcher."
+[Error: 2024-03-12 07:59:31.1270070: localization.cpp(110)] No translation found for "Unable to download the bootstrap update. Launching previous version..."
+[Error: 2024-03-12 07:59:31.1270334: localization.cpp(110)] No translation found for "Unable to update the bootstrap."
+[Error: 2024-03-12 07:59:31.1270745: localization.cpp(110)] No translation found for "Failed to initialize GDK, please make sure Xbox App and Gaming Services are up to date and running."
+[Info: 2024-03-12 07:59:31.1271138: Common.cpp(35)] Native Launcher Version: 1.8.2
+[Info: 2024-03-12 07:59:31.1271573: Common.cpp(36)] Operating System: Windows 10 Enterprise
+[Info: 2024-03-12 07:59:31.1272589: Common.cpp(37)] Application Data directory: C:\...\.minecraft
+[Info: 2024-03-12 07:59:31.1275098: Common.cpp(38)] Executable Path: /:\...\MinecraftLauncher.exe
+[Info: 2024-03-12 07:59:31.1275625: Common.cpp(39)] App Directory dir: C:\...\Minecraft Launcher
+[Info: 2024-03-12 07:59:31.1276115: Common.cpp(40)] Game data directory: C:\...\.minecraft
+[Info: 2024-03-12 07:59:31.1276587: Common.cpp(41)] Launcher dir: C:\...\game
+[Info: 2024-03-12 07:59:31.1277039: Common.cpp(42)] Update dir: C:\...\update_files
+[Info: 2024-03-12 07:59:31.1277505: Common.cpp(43)] TmpDir dir: 
+[Info: 2024-03-12 07:59:31.1277861: Common.cpp(44)] StagingDir dir: C:\...\staging
+[Warning: 2024-03-12 07:59:31.1291728: UpdateChecking.cpp(323)] Unable to find 'channel' key in settings.
+[Info: 2024-03-12 07:59:31.1292409: UpdateChecking.cpp(351)] Failed to read update preferences from C:\...\launcher_profiles.json
+[Info: 2024-03-12 07:59:31.1293075: UpdateChecking.cpp(356)] Using update preferences at path: C:\...\launcher_settings.json
+[Info: 2024-03-12 07:59:31.1299900: KeyMakerCache.cpp(213)] Initializing KeyMaker response cache...
+[Info: 2024-03-12 07:59:31.1300364: KeyMakerCache.cpp(219)] KeyMaker response cache initialized.
+[Info: 2024-03-12 07:59:31.1344013: Auth.cpp(213)] Token in STS has expired, removing from storage
+[Info: 2024-03-12 07:59:31.1355390: Auth.cpp(274)] STS Token successfully removed
+[Info: 2024-03-12 07:59:31.1359548: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/products/launcher/8c27cef2cad375cacbb4a98169dae13a58fb7c09/win32.json
+[Info: 2024-03-12 07:59:31.3127144: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:46::45, Host: redstone-launcher.mojang.com
+[Info: 2024-03-12 07:59:31.3127899: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/products/launcher/8c27cef2cad375cacbb4a98169dae13a58fb7c09/win32.json
+[Info: 2024-03-12 07:59:31.3129942: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/products/launcher/8c27cef2cad375cacbb4a98169dae13a58fb7c09/win32.json
+[Info: 2024-03-12 07:59:31.3138793: AzureUpdateTools.cpp(275)] We should change bootstrap from 1.8.2 to 1.9.2
+[Info: 2024-03-12 07:59:31.3139446: AzureUpdateTools.cpp(295)] bootstrap update is needed.
+[Info: 2024-03-12 07:59:31.3139876: main.cpp(158)] Updating bootstrap...
+[Info: 2024-03-12 07:59:31.3144712: main.cpp(180)] Status reported: Downloading Minecraft.exe
+[Info: 2024-03-12 07:59:31.3145503: main.cpp(180)] Status reported: Downloading manifest...
+[Info: 2024-03-12 07:59:31.3146108: Updating.cpp(101)] Downloading https://redstone-launcher.mojang.com/release/v2/packages/8ad26b88c6bc40b0baf2e1840f5527bf3dee56a1/manifest.json
+[Info: 2024-03-12 07:59:31.3148709: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/packages/8ad26b88c6bc40b0baf2e1840f5527bf3dee56a1/manifest.json
+[Info: 2024-03-12 07:59:31.3877064: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:46::45, Host: redstone-launcher.mojang.com
+[Info: 2024-03-12 07:59:31.3877788: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/packages/8ad26b88c6bc40b0baf2e1840f5527bf3dee56a1/manifest.json
+[Info: 2024-03-12 07:59:31.3878258: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/packages/8ad26b88c6bc40b0baf2e1840f5527bf3dee56a1/manifest.json
+[Info: 2024-03-12 07:59:31.3884650: main.cpp(180)] Status reported: Inspecting current version and preparing for update...
+[Info: 2024-03-12 07:59:31.3904566: Updating.cpp(244)] Target path: C:\...\update_files
+[Info: 2024-03-12 07:59:31.3915905: Updating.cpp(262)] Staging path: C:\...\staging
+[Info: 2024-03-12 07:59:31.3922067: main.cpp(180)] Status reported: Downloading update files...
+[Info: 2024-03-12 07:59:31.3926204: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/d9d645586c3a45c0d0bc3ac86137b4c8df548102/Minecraft.exe
+[Info: 2024-03-12 07:59:31.8042275: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:46::45, Host: redstone-launcher.mojang.com
+[Info: 2024-03-12 07:59:31.8043138: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/d9d645586c3a45c0d0bc3ac86137b4c8df548102/Minecraft.exe
+[Info: 2024-03-12 07:59:31.8045025: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/objects/d9d645586c3a45c0d0bc3ac86137b4c8df548102/Minecraft.exe
+[Info: 2024-03-12 07:59:31.8046072: main.cpp(180)] Status reported: Updating...
+[Info: 2024-03-12 07:59:31.8050214: Updating.cpp(463)] CopyFile(C:\...\d9d645586c3a45c0d0bc3ac86137b4c8df548102, C:\...\Minecraft.exe, executable)
+[Info: 2024-03-12 07:59:31.8117525: main.cpp(180)] Status reported: Cleaning up...
+[Info: 2024-03-12 07:59:31.8141487: main.cpp(180)] Status reported: Unpacking update installer...
+[Info: 2024-03-12 07:59:31.8274685: main.cpp(180)] Status reported: Running update installer...
+[Info: 2024-03-12 07:59:31.8356535: LaunchApplicationWin32.cpp(41)] Started application tools\NativeUpdater.exe MinecraftLauncher.exe "C:\Program Files (x86)\Minecraft Launcher\update_files\Minecraft.exe"
+[Info: 2024-03-12 07:59:31.8357248: main.cpp(347)] Bootstrap update returned 3. Rebooting...
+[Info: 2024-03-12 07:59:31.8357624: NetQueue.cpp(59)] NetQueue: Initiating shutdown.
+[Info: 2024-03-12 07:59:31.8357905: NetQueue.cpp(73)] NetQueue: Waiting for worker thread to finish...
+[Info: 2024-03-12 07:59:31.8358469: NetQueue.cpp(419)] NetQueue: Worker thread shutting down.
+[Info: 2024-03-12 07:59:31.8385173: NetQueue.cpp(76)] NetQueue: Done.
+[Info: 2024-03-12 07:59:31.8385845: NetQueue.cpp(59)] NetQueue: Initiating shutdown.
+[Info: 2024-03-12 07:59:31.8386104: NetQueue.cpp(64)] NetQueue: No thread currently running

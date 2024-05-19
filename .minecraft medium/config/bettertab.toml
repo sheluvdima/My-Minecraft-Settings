@@ -1,0 +1,38 @@
+
+[general]
+	scale = 0
+	toggle = false
+
+[color]
+
+	[color.background]
+		red = 0
+		green = 0
+		blue = 0
+		alpha = 0
+
+	[color.player]
+		red = 0
+		green = 0
+		blue = 0
+		alpha = 0
+
+[footer]
+	hide_footer = true
+
+[header]
+	hide_header = true
+
+[position]
+	x = -1
+	y = 0
+
+[body]
+	max_count = 32
+	hide_heads = false
+	ping = 0
+	max_per_column = 16
+
+[master]
+	master_switch = true
+

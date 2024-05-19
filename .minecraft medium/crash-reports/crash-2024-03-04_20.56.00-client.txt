@@ -1,0 +1,210 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  ModernSound (ModernSound-1.0.0.jar)
+  Born in a Barn (Born In A Barn 1.8-1.12-1.2.jar)
+  MixinLoader (serverlistbufferfixer-1.0.0.jar)
+  KsyxisLegacyForge (Ksyxis-1.2.2.jar)
+  PhosphorFMLPlugin (phosphor-universal.jar)
+  FMLLoadingPlugin (name-spoofer-1.4.jar)
+  Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (foamfix-0.6.3a-anarchy-1.8.x.jar)
+  MixinLoader (nochathide-1.0.1.jar)
+  ZoomerTweaker (Zoomer-1.1.jar)
+  PolishedGUI (Polished-GUI-1.0.0.jar)
+Contact their authors BEFORE contacting forge
+
+// You're mean.
+
+Time: 3/4/24 8:56 PM
+Description: Updating screen events
+
+java.lang.NoClassDefFoundError: net/minecraft/client/gui/GuiLanguage$List
+	at net.minecraft.client.gui.GuiLanguage.func_73866_w_(SourceFile:38)
+	at net.minecraft.client.gui.GuiScreen.func_146280_a(GuiScreen.java:502)
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:930)
+	at net.minecraft.client.gui.GuiOptions.func_146284_a(SourceFile:171)
+	at net.minecraft.client.gui.GuiScreen.func_73864_a(GuiScreen.java:467)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:555)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:524)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1674)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1024)
+	at net.minecraft.client.Minecraft.func_99999_d(Unknown Source)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.gui.GuiLanguage$List
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 17 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:521)
+	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	... 19 more
+Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [mixins.polishedgui.json:MixinGuiLanguage_List] from phase [DEFAULT] in config [mixins.polishedgui.json] FAILED during APPLY
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.handleMixinError(MixinTransformer.java:779)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.handleMixinApplyError(MixinTransformer.java:732)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:513)
+	... 22 more
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @Redirect annotation on redirect$refreshResources$zzn000 could not find any targets matching 'elementClicked' in the target class net.minecraft.client.gui.GuiLanguage$List. Using refmap mixins.polishedgui.refmap.json
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findMethods(InjectionInfo.java:421)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:172)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:159)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:151)
+	at org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo.<init>(RedirectInjectionInfo.java:39)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:478)
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1180)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:929)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:317)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:280)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:353)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.apply(MixinTransformer.java:724)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.applyMixins(MixinTransformer.java:703)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:509)
+	... 22 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.client.gui.GuiLanguage.func_73866_w_(SourceFile:38)
+	at net.minecraft.client.gui.GuiScreen.func_146280_a(GuiScreen.java:502)
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:930)
+	at net.minecraft.client.gui.GuiOptions.func_146284_a(SourceFile:171)
+	at net.minecraft.client.gui.GuiScreen.func_73864_a(GuiScreen.java:467)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:555)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:524)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiLanguage
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 4 total; [EntityPlayerSP['sheluvdima'/36660, l='MpServer', x=-84.38, y=33.50, z=36.76], EntityOtherPlayerMP['Nathan_1303'/36661, l='MpServer', x=-76.72, y=34.00, z=39.13], EntityOtherPlayerMP['Blaxx24'/36662, l='MpServer', x=-36.28, y=36.07, z=89.26], EntityOtherPlayerMP['enaz'/36654, l='MpServer', x=-26.78, y=40.70, z=36.50]]
+	Chunk stats: MultiplayerChunkCache: 435, 435
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 5.00,243.00,34.00 - World: (5,243,34), Chunk: (at 5,15,2 in 0,2; contains blocks 0,0,32 to 15,255,47), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 386749 game time, 48000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 35 total; [EntityOtherPlayerMP['erenozgul123'/36649, l='MpServer', x=4.28, y=12.06, z=100.62], EntityArmorStand['§c§lUpgrades'/36738, l='MpServer', x=-74.50, y=35.53, z=32.50], EntityArmorStand['§f(Right Click)'/36739, l='MpServer', x=-74.50, y=35.25, z=32.50], EntityOtherPlayerMP['erenozgul123'/36649, l='MpServer', x=5.50, y=243.00, z=34.50], EntityOtherPlayerMP['enaz'/36654, l='MpServer', x=15.13, y=48.07, z=13.18], EntityOtherPlayerMP['Blaxx24'/36662, l='MpServer', x=-36.28, y=36.07, z=89.26], EntityOtherPlayerMP['enaz'/36654, l='MpServer', x=-26.78, y=40.70, z=36.50], EntityOtherPlayerMP['Nathan_1303'/36661, l='MpServer', x=-76.72, y=34.00, z=39.13], EntityOtherPlayerMP['Blaxx24'/36662, l='MpServer', x=-36.28, y=36.07, z=89.26], EntityArmorStand['Armor Stand'/36664, l='MpServer', x=-80.00, y=34.00, z=36.00], EntityZombie['Zombie'/36668, l='MpServer', x=-74.50, y=34.00, z=40.50], EntityZombie['Zombie'/36672, l='MpServer', x=-74.50, y=34.00, z=32.50], EntityItem['item.item.ingotIron'/37193, l='MpServer', x=-84.50, y=33.50, z=36.50], EntityOtherPlayerMP['enaz'/36654, l='MpServer', x=-26.78, y=40.70, z=36.50], EntityPlayerSP['sheluvdima'/36660, l='MpServer', x=-84.38, y=33.50, z=36.76], EntityOtherPlayerMP['AvengerSpartan1'/36643, l='MpServer', x=-26.72, y=35.00, z=-29.41], EntityOtherPlayerMP['HusaMan20'/36646, l='MpServer', x=7.93, y=69.91, z=39.49], EntityOtherPlayerMP['ItsMeLemon'/36648, l='MpServer', x=8.44, y=70.00, z=26.28], EntityOtherPlayerMP['erenozgul123'/36649, l='MpServer', x=13.88, y=69.91, z=38.38], EntityOtherPlayerMP['callmeyuugo'/36650, l='MpServer', x=7.50, y=70.00, z=34.91], EntityOtherPlayerMP['vladgoian2008'/36651, l='MpServer', x=11.81, y=70.00, z=41.94], EntityOtherPlayerMP['HotGirls'/36653, l='MpServer', x=10.06, y=70.00, z=35.47], EntityOtherPlayerMP['enaz'/36654, l='MpServer', x=7.52, y=70.00, z=36.11], EntityOtherPlayerMP['Shubham8898'/36655, l='MpServer', x=-2.00, y=70.00, z=45.69], EntityArmorStand['Armor Stand'/36716, l='MpServer', x=-84.50, y=33.50, z=36.50], EntityOtherPlayerMP['Luca600Man'/36658, l='MpServer', x=10.69, y=70.66, z=44.17], EntityOtherPlayerMP['Victor32509'/36659, l='MpServer', x=11.06, y=70.00, z=40.84], EntityOtherPlayerMP['hopsteris'/36656, l='MpServer', x=11.03, y=70.00, z=31.47], EntityOtherPlayerMP['seeeeeed'/36657, l='MpServer', x=18.69, y=70.00, z=43.78], EntityOtherPlayerMP['Nathan_1303'/36661, l='MpServer', x=-76.72, y=34.00, z=39.13], EntityOtherPlayerMP['Blaxx24'/36662, l='MpServer', x=-83.54, y=34.34, z=36.81], EntityOtherPlayerMP['qcq'/36663, l='MpServer', x=7.50, y=70.00, z=34.50], EntityOtherPlayerMP['qcq'/36663, l='MpServer', x=9.62, y=70.98, z=34.50], EntityArmorStand['§c§lShop'/36728, l='MpServer', x=-74.50, y=35.53, z=40.50], EntityArmorStand['§f(Right Click)'/36729, l='MpServer', x=-74.50, y=35.25, z=40.50]]
+	Retry entities: 0 total; []
+	Server brand: PaperSpigot (Velocity)
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:402)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2536)
+	at net.minecraft.client.Minecraft.func_99999_d(Unknown Source)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 689501360 bytes (657 MB) / 1476395008 bytes (1408 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.2318 Optifine OptiFine_1.8.9_HD_U_M5 30 mods loaded, 30 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.8.9-11.15.1.2318-1.8.9.jar) 
+	UCHIJA	Forge{11.15.1.2318} [Minecraft Forge] (forge-1.8.9-11.15.1.2318-1.8.9.jar) 
+	UCHIJA	foamfixcore{7.7.4} [FoamFixCore] (minecraft.jar) 
+	UCHIJA	skinlayers3d{1.2.0} [3dSkinLayers] (3dSkinLayers-forge-mc1.8.9-1.2.0.jar) 
+	UCHIJA	entityculling{1.5.0} [EntityCulling] (entityculling-forge-mc1.8.9-1.5.0.jar) 
+	UCHIJA	nochathide{1.0.1} [No Chat Hide] (nochathide-1.0.1.jar) 
+	UCHIJA	serverlistbufferfixer{1.0.0} [Serverlist Buffer Fixer] (serverlistbufferfixer-1.0.0.jar) 
+	UCHIJA	waveycapes{1.2.0} [WaveyCapes] (waveycapes-forge-mc1.8.9-1.2.0.jar) 
+	UCHIJA	oneconfig{0.2.2-alpha191} [OneConfig] (OneConfig (1.8.9-forge).jar) 
+	UCHIJA	toggle_perspective_fixed{1.0.0} [Toggle Perspective Fixed] ([1.8.9] Toggle Perspective Fixed-1.0.jar) 
+	UCHIJA	betterchat{1.5} [Better Chat] (betterchat-1.5.jar) 
+	UCHIJA	cfog{0.1} [Custom Fog] (cfog-0.1.jar) 
+	UCHIJA	clientsidesounds{1} [ClientSideSounds] (clientsidesounds-1.0.jar) 
+	UCHIJA	cloudmc{1.4.1 [1.8.9]} [Cloud Client] (cloud-1.8.jar) 
+	UCHIJA	foamfix{@VERSION@} [FoamFix] (foamfix-0.6.3a-anarchy-1.8.x.jar) 
+	UCHIJA	idletweaks{1.0.5} [IdleTweaks] (IdleTweaks-1.0.5.jar) 
+	UCHIJA	inventoryhud{3.2.1} [Inventory HUD+] (InventoryHUD-1.8.9-3.2.1.jar) 
+	UCHIJA	ksyxis{1.2.2} [Ksyxis] (Ksyxis-1.2.2.jar) 
+	UCHIJA	modernsound{1.0.0} [Modern Sound] (ModernSound-1.0.0.jar) 
+	UCHIJA	name-spoofer{1.4} [Name Spoofer] (name-spoofer-1.4.jar) 
+	UCHIJA	oldinput{1.1.3} [OldInput] (oldinput-1.1.3+1.8.9.jar) 
+	UCHIJA	phosphor-lighting{0.2.9.2} [Phosphor Lighting Engine] (phosphor-universal.jar) 
+	UCHIJA	polishedgui{1.0.0} [Polished GUI] (Polished-GUI-1.0.0.jar) 
+	UCHIJA	polyweather{1.0.0} [PolyWeather] (PolyWeather-1.8.9-forge-1.0.0.jar) 
+	UCHIJA	quickquit{1.0.0} [QuickQuit] (QuickQuit-1.0.0.jar) 
+	UCHIJA	resourcepackmanager{1.2} [Resource Pack Manager] (Resource_Pack_Manager_1.2.jar) 
+	UCHIJA	timetolive{0.1} [Time To Live] (timetolive-0.1.jar) 
+	UCHIJA	vanillahud{2.1.1} [VanillaHUD] (VanillaHUD-1.8.9-forge-2.1.1.jar) 
+	UCHIJA	zoomer_mod{1.1} [Zoomer] (Zoomer-1.1.jar) 
+	Loaded coremods (and transformers): 
+ModernSound (ModernSound-1.0.0.jar)
+  
+Born in a Barn (Born In A Barn 1.8-1.12-1.2.jar)
+  com.chocohead.biab.BornInABarn
+MixinLoader (serverlistbufferfixer-1.0.0.jar)
+  
+KsyxisLegacyForge (Ksyxis-1.2.2.jar)
+  
+PhosphorFMLPlugin (phosphor-universal.jar)
+  
+FMLLoadingPlugin (name-spoofer-1.4.jar)
+  me.leafs.fakename.asm.FontTransformer
+Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (foamfix-0.6.3a-anarchy-1.8.x.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+MixinLoader (nochathide-1.0.1.jar)
+  
+ZoomerTweaker (Zoomer-1.1.jar)
+  com.llamalad7.zoomer.tweaker.ClassTransformer
+PolishedGUI (Polished-GUI-1.0.0.jar)
+  
+	GL info: ' Vendor: 'Intel' Version: '3.1.0 - Build 9.17.10.4459' Renderer: 'Intel(R) HD Graphics 3000'
+	Launched Version: 1.8.9-forge1.8.9-11.15.1.2318-1.8.9
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) HD Graphics 3000 GL version 3.1.0 - Build 9.17.10.4459, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: ! §fsnow§9fault §f[16x].zip, Stewound.zip, Smooth font overlay.zip, ! Notpogs GUI overlay.zip
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+	OptiFine Version: OptiFine_1.8.9_HD_U_M5
+	OptiFine Build: 20210124-163719
+	Render Distance Chunks: 8
+	Mipmaps: 0
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 3.1.0 - Build 9.17.10.4459
+	OpenGlRenderer: Intel(R) HD Graphics 3000
+	OpenGlVendor: Intel
+	CpuCount: 4

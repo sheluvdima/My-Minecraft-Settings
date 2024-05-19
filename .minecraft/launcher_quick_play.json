@@ -1,0 +1,25 @@
+{
+  "quickPlayData" : {
+    "2535411311786671" : [],
+    "2535435672191115" : 
+    [
+      {
+        "epochLastPlayedTimeMs" : 1713723764779,
+        "id" : "01d3e9735e47205b4220bbd67bff6439",
+        "javaInstance" : {
+          "configId" : "01d3e9735e47205b4220bbd67bff6439"
+        },
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1709496424946,
+        "id" : "43e9c4dd4f39df334fae5340a7a9ce8b",
+        "javaInstance" : {
+          "configId" : "43e9c4dd4f39df334fae5340a7a9ce8b"
+        },
+        "source" : "Java"
+      }
+    ]
+  },
+  "version" : 2
+}

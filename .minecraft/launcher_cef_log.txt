@@ -1,0 +1,6 @@
+[0509/195918.798:INFO:main_context.cpp(131)] CEF initialized successfully.
+[0509/195918.799:INFO:main_context.cpp(133)] CEF version: 99.2.14+g3f796b8+chromium-99.0.4844.84
+[0509/195919.039:ERROR:gl_surface_egl.cc(808)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.0) is greater than max supported (2, 0).
+[0509/195919.039:ERROR:gl_context_egl.cc(355)] eglCreateContext failed with error EGL_SUCCESS
+[0509/200118.827:ERROR:gpu_init.cc(440)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0509/200723.809:WARNING:frame_host_impl.cc(533)] SendProcessMessage sent to detached mainframe 25769803777 [6,1] will be ignored

@@ -1,0 +1,74 @@
+{
+  "profiles" : {
+    "01d3e9735e47205b4220bbd67bff6439" : {
+      "created" : "2024-03-03T16:50:13.698Z",
+      "gameDir" : "C:\\Users\\Administrator\\AppData\\Roaming\\.minecraft medium",
+      "icon" : "Furnace",
+      "lastUsed" : "2024-05-09T18:07:23.669Z",
+      "lastVersionId" : "1.8.9-forge1.8.9-11.15.1.2318-1.8.9",
+      "name" : "Minecraft Medium",
+      "type" : "custom"
+    },
+    "3d87a6a638e0464bbf195e32e72d50c0" : {
+      "created" : "2024-02-25T16:20:23+01:00",
+      "icon" : "Grass",
+      "lastUsed" : "2024-02-25T16:20:23+01:00",
+      "lastVersionId" : "latest-release",
+      "name" : "",
+      "type" : "latest-release"
+    },
+    "3da1eeb32ef04d94948cd6dd614428b7" : {
+      "created" : "2024-02-25T16:20:23+01:00",
+      "icon" : "Dirt",
+      "lastUsed" : "2024-02-25T16:20:23+01:00",
+      "lastVersionId" : "latest-snapshot",
+      "name" : "",
+      "type" : "latest-snapshot"
+    },
+    "4081a33c968e4b40b7ce6f1c6cd232a5" : {
+      "created" : "2024-02-25T16:18:01.000Z",
+      "icon" : "Furnace",
+      "javaDir" : "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.2.13-hotspot\\bin\\javaw.exe",
+      "lastUsed" : "2024-02-25T16:25:32.738Z",
+      "lastVersionId" : "1.8.9-forge1.8.9-11.15.1.2318-1.8.9",
+      "name" : "Forge 1.8.9",
+      "resolution" : {
+        "height" : 480,
+        "width" : 854
+      },
+      "type" : "custom"
+    },
+    "43e9c4dd4f39df334fae5340a7a9ce8b" : {
+      "created" : "2024-03-03T16:49:50.461Z",
+      "gameDir" : "C:\\Users\\Administrator\\AppData\\Roaming\\.minecraft low",
+      "icon" : "Furnace",
+      "lastUsed" : "2024-03-03T20:07:05.039Z",
+      "lastVersionId" : "1.8.9-forge1.8.9-11.15.1.2318-1.8.9",
+      "name" : "Minecraft Low",
+      "type" : "custom"
+    },
+    "a6f0bc47c4dd7c6f2ca4aa79feb0c56e" : {
+      "created" : "2024-03-03T16:50:29.784Z",
+      "gameDir" : "C:\\Users\\Administrator\\AppData\\Roaming\\.minecraft high",
+      "icon" : "Furnace",
+      "lastUsed" : "1970-01-01T00:00:00.000Z",
+      "lastVersionId" : "1.8.9-forge1.8.9-11.15.1.2318-1.8.9",
+      "name" : "Minecraft High",
+      "type" : "custom"
+    }
+  },
+  "settings" : {
+    "crashAssistance" : false,
+    "enableAdvanced" : false,
+    "enableAnalytics" : true,
+    "enableHistorical" : false,
+    "enableReleases" : true,
+    "enableSnapshots" : false,
+    "keepLauncherOpen" : false,
+    "profileSorting" : "ByName",
+    "showGameLog" : false,
+    "showMenu" : false,
+    "soundOn" : false
+  },
+  "version" : 3
+}

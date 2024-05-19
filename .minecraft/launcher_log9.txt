@@ -1,0 +1,297 @@
+[Error: 2024-05-03 12:43:22.9616872: localization.cpp(110)] No translation found for "Unable to download the launcher update. Launching previous version..."
+[Error: 2024-05-03 12:43:22.9617746: localization.cpp(110)] No translation found for "Unable to update the launcher."
+[Error: 2024-05-03 12:43:22.9617923: localization.cpp(110)] No translation found for "Unable to download the bootstrap update. Launching previous version..."
+[Error: 2024-05-03 12:43:22.9618093: localization.cpp(110)] No translation found for "Unable to update the bootstrap."
+[Error: 2024-05-03 12:43:22.9618446: localization.cpp(110)] No translation found for "Failed to initialize GDK, please make sure Xbox App and Gaming Services are up to date and running."
+[Info: 2024-05-03 12:43:22.9658824: NetQueue.cpp(32)] NetQueue: Setting up.
+[Info: 2024-05-03 12:43:22.9688921: NetQueue.cpp(414)] NetQueue: worker thread started.
+[Info: 2024-05-03 12:43:22.9692821: mainWindows.cpp(117)] Running launcher bootstrap (version 1.9.2)
+[Info: 2024-05-03 12:43:22.9736849: NetQueue.cpp(32)] NetQueue: Setting up.
+[Info: 2024-05-03 12:43:22.9740833: NetQueue.cpp(414)] NetQueue: worker thread started.
+[Error: 2024-05-03 12:43:22.9751414: localization.cpp(110)] No translation found for "Unable to download the launcher update. Launching previous version..."
+[Error: 2024-05-03 12:43:22.9751956: localization.cpp(110)] No translation found for "Unable to update the launcher."
+[Error: 2024-05-03 12:43:22.9752347: localization.cpp(110)] No translation found for "Unable to download the bootstrap update. Launching previous version..."
+[Error: 2024-05-03 12:43:22.9752757: localization.cpp(110)] No translation found for "Unable to update the bootstrap."
+[Error: 2024-05-03 12:43:22.9753301: localization.cpp(110)] No translation found for "Failed to initialize GDK, please make sure Xbox App and Gaming Services are up to date and running."
+[Info: 2024-05-03 12:43:22.9753856: Common.cpp(35)] Native Launcher Version: 1.9.2
+[Info: 2024-05-03 12:43:22.9754509: Common.cpp(36)] Operating System: Windows 10 Enterprise
+[Info: 2024-05-03 12:43:22.9755602: Common.cpp(37)] Application Data directory: C:\...\.minecraft
+[Info: 2024-05-03 12:43:22.9759093: Common.cpp(38)] Executable Path: /:\...\MinecraftLauncher.exe
+[Info: 2024-05-03 12:43:22.9759853: Common.cpp(39)] App Directory dir: C:\...\Minecraft Launcher
+[Info: 2024-05-03 12:43:22.9760566: Common.cpp(40)] Game data directory: C:\...\.minecraft
+[Info: 2024-05-03 12:43:22.9761266: Common.cpp(41)] Launcher dir: C:\...\game
+[Info: 2024-05-03 12:43:22.9761947: Common.cpp(42)] Update dir: C:\...\update_files
+[Info: 2024-05-03 12:43:22.9762634: Common.cpp(43)] TmpDir dir: 
+[Info: 2024-05-03 12:43:22.9763165: Common.cpp(44)] StagingDir dir: C:\...\staging
+[Warning: 2024-05-03 12:43:22.9779452: UpdateChecking.cpp(324)] Unable to find 'channel' key in settings.
+[Info: 2024-05-03 12:43:22.9780640: UpdateChecking.cpp(352)] Failed to read update preferences from C:\...\launcher_profiles.json
+[Info: 2024-05-03 12:43:22.9781568: UpdateChecking.cpp(357)] Using update preferences at path: C:\...\launcher_settings.json
+[Info: 2024-05-03 12:43:22.9791476: KeyMakerCache.cpp(220)] Initializing KeyMaker response cache for prod...
+[Info: 2024-05-03 12:43:22.9792033: KeyMakerCache.cpp(226)] KeyMaker response cache initialized.
+[Info: 2024-05-03 12:43:22.9821603: Auth.cpp(258)] Token in STS has expired, removing from storage
+[Info: 2024-05-03 12:43:22.9833527: Auth.cpp(319)] STS Token successfully removed
+[Info: 2024-05-03 12:43:22.9837382: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/products/launcher/8c27cef2cad375cacbb4a98169dae13a58fb7c09/win32.json
+[Info: 2024-05-03 12:43:23.1538514: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:23.1539141: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/products/launcher/8c27cef2cad375cacbb4a98169dae13a58fb7c09/win32.json
+[Info: 2024-05-03 12:43:23.1540980: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/products/launcher/8c27cef2cad375cacbb4a98169dae13a58fb7c09/win32.json
+[Info: 2024-05-03 12:43:23.1544616: AzureUpdateTools.cpp(279)] Version of bootstrap is current, no action is necessary.
+[Info: 2024-05-03 12:43:23.1545120: AzureUpdateTools.cpp(299)] bootstrap is current
+[Info: 2024-05-03 12:43:23.1549655: AzureUpdateTools.cpp(275)] We should change core from 2.22.14 to 2.23.7
+[Info: 2024-05-03 12:43:23.1550153: AzureUpdateTools.cpp(295)] core update is needed.
+[Info: 2024-05-03 12:43:23.1550586: main.cpp(35)] Core outdated!
+[Info: 2024-05-03 12:43:23.1551852: main.cpp(63)] Update in folder C:\...\game will now run. (https://redstone-launcher.mojang.com/release/v2/packages/842a2beb7ea87c233146f0a5fb54f6f9efe002ff/manifest.json to version 2.23.7)
+[Info: 2024-05-03 12:43:23.1552502: main.cpp(56)] Status reported: Downloading manifest...
+[Info: 2024-05-03 12:43:23.1552893: Updating.cpp(101)] Downloading https://redstone-launcher.mojang.com/release/v2/packages/842a2beb7ea87c233146f0a5fb54f6f9efe002ff/manifest.json
+[Info: 2024-05-03 12:43:23.1555026: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/packages/842a2beb7ea87c233146f0a5fb54f6f9efe002ff/manifest.json
+[Info: 2024-05-03 12:43:23.1930267: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:23.1930801: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/packages/842a2beb7ea87c233146f0a5fb54f6f9efe002ff/manifest.json
+[Info: 2024-05-03 12:43:23.1931205: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/packages/842a2beb7ea87c233146f0a5fb54f6f9efe002ff/manifest.json
+[Info: 2024-05-03 12:43:23.1995547: main.cpp(56)] Status reported: Inspecting current version and preparing for update...
+[Info: 2024-05-03 12:43:23.1996581: Updating.cpp(244)] Target path: C:\...\game
+[Info: 2024-05-03 12:43:23.2006945: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\.version, internal: /:\...\.version
+[Info: 2024-05-03 12:43:23.2009711: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\chrome_100_percent.pak, internal: /:\...\chrome_100_percent.pak
+[Info: 2024-05-03 12:43:23.2012733: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\chrome_200_percent.pak, internal: /:\...\chrome_200_percent.pak
+[Info: 2024-05-03 12:43:23.2015338: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\chrome_elf.dll, internal: /:\...\chrome_elf.dll
+[Info: 2024-05-03 12:43:23.2017880: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\d3dcompiler_47.dll, internal: /:\...\d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:23.2021565: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\icudtl.dat, internal: /:\...\icudtl.dat
+[Info: 2024-05-03 12:43:23.2024817: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\JavaCheck.jar, internal: /:\...\JavaCheck.jar
+[Info: 2024-05-03 12:43:23.2138973: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\launcher.dll, internal: /:\...\launcher.dll
+[Info: 2024-05-03 12:43:23.2146342: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\libcef.dll, internal: /:\...\libcef.dll
+[Info: 2024-05-03 12:43:23.2171971: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\libEGL.dll, internal: /:\...\libEGL.dll
+[Info: 2024-05-03 12:43:23.2185088: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\libGLESv2.dll, internal: /:\...\libGLESv2.dll
+[Info: 2024-05-03 12:43:23.2949408: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\am.pak, internal: /:\...\am.pak
+[Info: 2024-05-03 12:43:23.2956677: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\ar.pak, internal: /:\...\ar.pak
+[Info: 2024-05-03 12:43:23.2962797: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\bg.pak, internal: /:\...\bg.pak
+[Info: 2024-05-03 12:43:23.3039527: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\bn.pak, internal: /:\...\bn.pak
+[Info: 2024-05-03 12:43:23.3090777: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\ca.pak, internal: /:\...\ca.pak
+[Info: 2024-05-03 12:43:23.3099003: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\cs.pak, internal: /:\...\cs.pak
+[Info: 2024-05-03 12:43:23.3120702: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\da.pak, internal: /:\...\da.pak
+[Info: 2024-05-03 12:43:23.3168159: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\de.pak, internal: /:\...\de.pak
+[Info: 2024-05-03 12:43:23.3171224: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\el.pak, internal: /:\...\el.pak
+[Info: 2024-05-03 12:43:23.3174408: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\en-GB.pak, internal: /:\...\en-GB.pak
+[Info: 2024-05-03 12:43:23.3177391: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\en-US.pak, internal: /:\...\en-US.pak
+[Info: 2024-05-03 12:43:23.3187095: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\es-419.pak, internal: /:\...\es-419.pak
+[Info: 2024-05-03 12:43:23.3242802: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\es.pak, internal: /:\...\es.pak
+[Info: 2024-05-03 12:43:23.3249315: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\et.pak, internal: /:\...\et.pak
+[Info: 2024-05-03 12:43:23.3255034: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\fa.pak, internal: /:\...\fa.pak
+[Info: 2024-05-03 12:43:23.3260184: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\fi.pak, internal: /:\...\fi.pak
+[Info: 2024-05-03 12:43:23.3262776: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\fil.pak, internal: /:\...\fil.pak
+[Info: 2024-05-03 12:43:23.3267103: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\fr.pak, internal: /:\...\fr.pak
+[Info: 2024-05-03 12:43:23.3289144: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\he.pak, internal: /:\...\he.pak
+[Info: 2024-05-03 12:43:23.3295070: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\gu.pak, internal: /:\...\gu.pak
+[Info: 2024-05-03 12:43:23.3311756: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\id.pak, internal: /:\...\id.pak
+[Info: 2024-05-03 12:43:23.3324209: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\hr.pak, internal: /:\...\hr.pak
+[Info: 2024-05-03 12:43:23.3325077: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\hu.pak, internal: /:\...\hu.pak
+[Info: 2024-05-03 12:43:23.3327671: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\hi.pak, internal: /:\...\hi.pak
+[Info: 2024-05-03 12:43:23.3367448: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\it.pak, internal: /:\...\it.pak
+[Info: 2024-05-03 12:43:23.3375699: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\ja.pak, internal: /:\...\ja.pak
+[Info: 2024-05-03 12:43:23.3395422: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\kn.pak, internal: /:\...\kn.pak
+[Info: 2024-05-03 12:43:23.3399712: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\ko.pak, internal: /:\...\ko.pak
+[Info: 2024-05-03 12:43:23.3415005: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\lt.pak, internal: /:\...\lt.pak
+[Info: 2024-05-03 12:43:23.3418740: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\lv.pak, internal: /:\...\lv.pak
+[Info: 2024-05-03 12:43:23.3430944: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\ml.pak, internal: /:\...\ml.pak
+[Info: 2024-05-03 12:43:23.3449427: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\mr.pak, internal: /:\...\mr.pak
+[Info: 2024-05-03 12:43:23.3466366: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\ms.pak, internal: /:\...\ms.pak
+[Info: 2024-05-03 12:43:23.3474096: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\nb.pak, internal: /:\...\nb.pak
+[Info: 2024-05-03 12:43:23.3487254: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\nl.pak, internal: /:\...\nl.pak
+[Info: 2024-05-03 12:43:23.3519587: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\pl.pak, internal: /:\...\pl.pak
+[Info: 2024-05-03 12:43:23.3524987: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\pt-BR.pak, internal: /:\...\pt-BR.pak
+[Info: 2024-05-03 12:43:23.3532515: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\pt-PT.pak, internal: /:\...\pt-PT.pak
+[Info: 2024-05-03 12:43:23.3537109: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\ro.pak, internal: /:\...\ro.pak
+[Info: 2024-05-03 12:43:23.3549749: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\ru.pak, internal: /:\...\ru.pak
+[Info: 2024-05-03 12:43:23.3568598: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\sk.pak, internal: /:\...\sk.pak
+[Info: 2024-05-03 12:43:23.3574268: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\sl.pak, internal: /:\...\sl.pak
+[Info: 2024-05-03 12:43:23.3592836: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\sr.pak, internal: /:\...\sr.pak
+[Info: 2024-05-03 12:43:23.3597493: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\sv.pak, internal: /:\...\sv.pak
+[Info: 2024-05-03 12:43:23.3623754: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\sw.pak, internal: /:\...\sw.pak
+[Info: 2024-05-03 12:43:23.3628482: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\ta.pak, internal: /:\...\ta.pak
+[Info: 2024-05-03 12:43:23.3660340: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\te.pak, internal: /:\...\te.pak
+[Info: 2024-05-03 12:43:23.3665289: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\th.pak, internal: /:\...\th.pak
+[Info: 2024-05-03 12:43:23.3671361: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\tr.pak, internal: /:\...\tr.pak
+[Info: 2024-05-03 12:43:23.3677931: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\uk.pak, internal: /:\...\uk.pak
+[Info: 2024-05-03 12:43:23.3724923: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\zh-TW.pak, internal: /:\...\zh-TW.pak
+[Info: 2024-05-03 12:43:23.3727055: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\zh-CN.pak, internal: /:\...\zh-CN.pak
+[Info: 2024-05-03 12:43:23.3749983: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\vi.pak, internal: /:\...\vi.pak
+[Info: 2024-05-03 12:43:23.3761136: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\april.zip, internal: /:\...\april.zip
+[Info: 2024-05-03 12:43:23.3773936: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\background.zip, internal: /:\...\background.zip
+[Info: 2024-05-03 12:43:23.3776967: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\common.zip, internal: /:\...\common.zip
+[Info: 2024-05-03 12:43:23.3797546: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\dungeonscarousel.zip, internal: /:\...\dungeonscarousel.zip
+[Info: 2024-05-03 12:43:23.3800285: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\dungeonsmusicbeats.zip, internal: /:\...\dungeonsmusicbeats.zip
+[Info: 2024-05-03 12:43:23.3802683: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\icons.zip, internal: /:\...\icons.zip
+[Info: 2024-05-03 12:43:23.3815225: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\images.zip, internal: /:\...\images.zip
+[Info: 2024-05-03 12:43:23.3825757: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\movies.zip, internal: /:\...\movies.zip
+[Info: 2024-05-03 12:43:23.3847247: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\logos.zip, internal: /:\...\logos.zip
+[Info: 2024-05-03 12:43:23.3881519: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\upsellcontent.zip, internal: /:\...\upsellcontent.zip
+[Info: 2024-05-03 12:43:23.3948216: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\snapshot_blob.bin, internal: /:\...\snapshot_blob.bin
+[Info: 2024-05-03 12:43:23.3985218: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\libEGL.dll, internal: /:\...\libEGL.dll
+[Info: 2024-05-03 12:43:23.4045918: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\realms.zip, internal: /:\...\realms.zip
+[Info: 2024-05-03 12:43:23.4074308: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\legendscarosel.zip, internal: /:\...\legendscarosel.zip
+[Info: 2024-05-03 12:43:23.4106416: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\onevanilla.zip, internal: /:\...\onevanilla.zip
+[Info: 2024-05-03 12:43:23.4159340: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\libGLESv2.dll, internal: /:\...\libGLESv2.dll
+[Info: 2024-05-03 12:43:23.4422170: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\vk_swiftshader_icd.json, internal: /:\...\vk_swiftshader_icd.json
+[Info: 2024-05-03 12:43:23.4426844: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\v8_context_snapshot.bin, internal: /:\...\v8_context_snapshot.bin
+[Info: 2024-05-03 12:43:23.4497038: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\vulkan-1.dll, internal: /:\...\vulkan-1.dll
+[Info: 2024-05-03 12:43:23.4586938: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\vk_swiftshader.dll, internal: /:\...\vk_swiftshader.dll
+[Info: 2024-05-03 12:43:23.4794028: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\resources.pak, internal: /:\...\resources.pak
+[Info: 2024-05-03 12:43:23.4888047: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\legendsmusicbeats.zip, internal: /:\...\legendsmusicbeats.zip
+[Info: 2024-05-03 12:43:23.5023371: Sha1Cacher.cpp(125)] SHA1 cacher get C:\...\vanillamusicbeats.zip, internal: /:\...\vanillamusicbeats.zip
+[Info: 2024-05-03 12:43:24.1753318: Updating.cpp(262)] Staging path: C:\...\staging
+[Info: 2024-05-03 12:43:24.1789711: main.cpp(56)] Status reported: Downloading update files...
+[Info: 2024-05-03 12:43:24.1797486: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/b39a6a52aa0d1b227e113cf4511e9b2b34d7c1aa/JavaCheck.jar
+[Info: 2024-05-03 12:43:24.1798087: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/707f227dc72008860655d98b56db52239691c128/chrome_elf.dll
+[Info: 2024-05-03 12:43:24.1798479: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:24.1798798: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Info: 2024-05-03 12:43:24.1799058: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/6e6e46d20132091e2c0adee0e245bd3505589206/libEGL.dll
+[Info: 2024-05-03 12:43:24.1799301: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Info: 2024-05-03 12:43:24.2470632: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:24.2471473: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/b39a6a52aa0d1b227e113cf4511e9b2b34d7c1aa/JavaCheck.jar
+[Info: 2024-05-03 12:43:24.2474166: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/objects/b39a6a52aa0d1b227e113cf4511e9b2b34d7c1aa/JavaCheck.jar
+[Info: 2024-05-03 12:43:24.2475147: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Info: 2024-05-03 12:43:24.8796803: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:24.8797337: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/6e6e46d20132091e2c0adee0e245bd3505589206/libEGL.dll
+[Info: 2024-05-03 12:43:24.8799003: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/objects/6e6e46d20132091e2c0adee0e245bd3505589206/libEGL.dll
+[Info: 2024-05-03 12:43:24.8799603: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/906a793aa5a44922c3d5b246a97e161196d69970/common.zip
+[Info: 2024-05-03 12:43:25.4077323: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:25.4077953: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/707f227dc72008860655d98b56db52239691c128/chrome_elf.dll
+[Info: 2024-05-03 12:43:25.4079702: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/objects/707f227dc72008860655d98b56db52239691c128/chrome_elf.dll
+[Info: 2024-05-03 12:43:25.4080365: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/5e5734e1be01e42979bb1060251185bcfbbf435b/logos.zip
+[Warning: 2024-05-03 12:43:25.4080418: Updating.cpp(396)] User requested to abort update during downloads
+[Info: 2024-05-03 12:43:25.4135412: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:25.4136037: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:25.4136501: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:25.4138074: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:25.4139622: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/6701ddcbacfb7b8239d0fa382017fb398911446d/libEGL.dll
+[Info: 2024-05-03 12:43:26.0863182: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:26.0863775: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/6701ddcbacfb7b8239d0fa382017fb398911446d/libEGL.dll
+[Info: 2024-05-03 12:43:26.0865418: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/objects/6701ddcbacfb7b8239d0fa382017fb398911446d/libEGL.dll
+[Info: 2024-05-03 12:43:26.0865943: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/0da4ee0f04c74b11da61e336b92068b34ac19a82/libGLESv2.dll
+[Info: 2024-05-03 12:43:26.1124923: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:26.1125513: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/5e5734e1be01e42979bb1060251185bcfbbf435b/logos.zip
+[Info: 2024-05-03 12:43:26.1127222: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/objects/5e5734e1be01e42979bb1060251185bcfbbf435b/logos.zip
+[Info: 2024-05-03 12:43:26.1127769: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Info: 2024-05-03 12:43:27.0962268: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.0962856: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/906a793aa5a44922c3d5b246a97e161196d69970/common.zip
+[Info: 2024-05-03 12:43:27.0964686: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/objects/906a793aa5a44922c3d5b246a97e161196d69970/common.zip
+[Info: 2024-05-03 12:43:27.0965222: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Info: 2024-05-03 12:43:27.2105883: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2106504: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/0da4ee0f04c74b11da61e336b92068b34ac19a82/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2108694: NetQueue.cpp(133)] Action finalized: https://redstone-launcher.mojang.com/release/v2/objects/0da4ee0f04c74b11da61e336b92068b34ac19a82/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2109397: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:27.2148561: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2149661: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:27.2150374: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:27.2150940: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:27.2152014: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Error: 2024-05-03 12:43:27.2169275: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2170494: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:27.2171146: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:27.2171899: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:27.2172437: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Error: 2024-05-03 12:43:27.2200512: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2201614: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Info: 2024-05-03 12:43:27.2202266: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll
+[Warning: 2024-05-03 12:43:27.2202827: NetQueue.cpp(124)] Action https://redstone-launcher.mojang.com/release/v2/objects/9f85a04f405f797d62767a33f2b6f1aa34ab3b10/d3dcompiler_47.dll failed in response handler. response code: 0 - error string: 'Callback aborted
+[Info: 2024-05-03 12:43:27.2221852: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2222729: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Info: 2024-05-03 12:43:27.2223421: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Info: 2024-05-03 12:43:27.2225350: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Info: 2024-05-03 12:43:27.2227783: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Error: 2024-05-03 12:43:27.2242561: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2243319: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Info: 2024-05-03 12:43:27.2243705: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Info: 2024-05-03 12:43:27.2244023: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Info: 2024-05-03 12:43:27.2244461: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Error: 2024-05-03 12:43:27.2262987: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2263698: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Info: 2024-05-03 12:43:27.2264124: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Info: 2024-05-03 12:43:27.2264480: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Info: 2024-05-03 12:43:27.2264914: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Error: 2024-05-03 12:43:27.2344617: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2345416: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Info: 2024-05-03 12:43:27.2345794: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll
+[Warning: 2024-05-03 12:43:27.2346103: NetQueue.cpp(124)] Action https://redstone-launcher.mojang.com/release/v2/objects/a7219255dcc8c794a7e72d8da9afa6670b05d056/launcher.dll failed in response handler. response code: 0 - error string: 'Callback aborted
+[Info: 2024-05-03 12:43:27.2408540: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2409564: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2410295: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2412759: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2414833: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Error: 2024-05-03 12:43:27.2429140: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2429987: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2430725: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2431070: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2431808: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Error: 2024-05-03 12:43:27.2451623: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2452834: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2453538: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2454160: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2454933: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Error: 2024-05-03 12:43:27.2471879: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2472965: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Info: 2024-05-03 12:43:27.2473391: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll
+[Warning: 2024-05-03 12:43:27.2473867: NetQueue.cpp(124)] Action https://redstone-launcher.mojang.com/release/v2/objects/22e2ff606ccc0a79e520a4ca98086877d5f70eee/libGLESv2.dll failed in response handler. response code: 0 - error string: 'Callback aborted
+[Info: 2024-05-03 12:43:27.2509245: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2510184: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Info: 2024-05-03 12:43:27.2510711: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Info: 2024-05-03 12:43:27.2512471: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Info: 2024-05-03 12:43:27.2513102: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Error: 2024-05-03 12:43:27.2529467: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2530600: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Info: 2024-05-03 12:43:27.2531305: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Info: 2024-05-03 12:43:27.2531891: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Info: 2024-05-03 12:43:27.2532649: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Error: 2024-05-03 12:43:27.2549866: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2550894: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Info: 2024-05-03 12:43:27.2551333: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Info: 2024-05-03 12:43:27.2551672: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Info: 2024-05-03 12:43:27.2552139: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Error: 2024-05-03 12:43:27.2652237: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2653089: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Info: 2024-05-03 12:43:27.2653502: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll
+[Warning: 2024-05-03 12:43:27.2653905: NetQueue.cpp(124)] Action https://redstone-launcher.mojang.com/release/v2/objects/b1b2865f933e0c11b67ec25986e877ac82f87307/libcef.dll failed in response handler. response code: 0 - error string: 'Callback aborted
+[Info: 2024-05-03 12:43:27.2669417: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2670290: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Info: 2024-05-03 12:43:27.2670996: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Info: 2024-05-03 12:43:27.2673059: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Info: 2024-05-03 12:43:27.2673802: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Error: 2024-05-03 12:43:27.2848428: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2849480: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Info: 2024-05-03 12:43:27.2849879: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Info: 2024-05-03 12:43:27.2850328: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Info: 2024-05-03 12:43:27.2850807: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Error: 2024-05-03 12:43:27.2865686: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2866496: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Info: 2024-05-03 12:43:27.2866861: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Info: 2024-05-03 12:43:27.2867148: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Info: 2024-05-03 12:43:27.2867676: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Error: 2024-05-03 12:43:27.2933417: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2934279: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Info: 2024-05-03 12:43:27.2934668: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll
+[Warning: 2024-05-03 12:43:27.2934968: NetQueue.cpp(124)] Action https://redstone-launcher.mojang.com/release/v2/objects/f465c5942fa791d181b2e536ffc0d1fcbcd1b7c3/vk_swiftshader.dll failed in response handler. response code: 0 - error string: 'Callback aborted
+[Info: 2024-05-03 12:43:27.2946203: CurlNetQueue.cpp(578)] NetQueue: Primary ip: 2620:1ec:bdf::45, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2948074: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Info: 2024-05-03 12:43:27.2948764: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Info: 2024-05-03 12:43:27.2951479: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Info: 2024-05-03 12:43:27.2952734: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Error: 2024-05-03 12:43:27.2957387: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2958421: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Info: 2024-05-03 12:43:27.2958902: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Info: 2024-05-03 12:43:27.2959203: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Info: 2024-05-03 12:43:27.2959603: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Error: 2024-05-03 12:43:27.2963441: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2963994: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Info: 2024-05-03 12:43:27.2964316: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Info: 2024-05-03 12:43:27.2964585: NetQueue.cpp(116)] Action should retry: https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Info: 2024-05-03 12:43:27.2964944: NetQueue.cpp(213)] NetQueue: Starting net action https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Error: 2024-05-03 12:43:27.2967363: CurlNetQueue.cpp(574)] NetQueue: No ip address available. Error code 42, Host: redstone-launcher.mojang.com
+[Info: 2024-05-03 12:43:27.2968122: CurlNetQueue.cpp(632)] NetQueue: Action aborted: https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Info: 2024-05-03 12:43:27.2968627: NetQueue.cpp(102)] NetQueue: Action finished: https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll
+[Warning: 2024-05-03 12:43:27.2969059: NetQueue.cpp(124)] Action https://redstone-launcher.mojang.com/release/v2/objects/3fae8ad5e2c94a7f0c2a8e410aaad31014d6aa05/vulkan-1.dll failed in response handler. response code: 0 - error string: 'Callback aborted
+[Warning: 2024-05-03 12:43:27.2973334: main.cpp(83)] Updating core failed with error: 4
+[Fatal: 2024-05-03 12:43:29.9979376: main.cpp(378)] Updating core failed with error: 4
+[Info: 2024-05-03 12:43:30.0004305: NetQueue.cpp(213)] NetQueue: Starting net action https://sentry.io/api/2703928/store/
+[Info: 2024-05-03 12:43:30.0004687: NetQueue.cpp(59)] NetQueue: Initiating shutdown.
+[Info: 2024-05-03 12:43:30.0005047: NetQueue.cpp(73)] NetQueue: Waiting for worker thread to finish...
+[Info: 2024-05-03 12:43:30.0005640: NetQueue.cpp(419)] NetQueue: Worker thread shutting down.
+[Info: 2024-05-03 12:43:30.0009270: NetQueue.cpp(76)] NetQueue: Done.
+[Info: 2024-05-03 12:43:30.0009912: NetQueue.cpp(59)] NetQueue: Initiating shutdown.
+[Info: 2024-05-03 12:43:30.0010354: NetQueue.cpp(64)] NetQueue: No thread currently running

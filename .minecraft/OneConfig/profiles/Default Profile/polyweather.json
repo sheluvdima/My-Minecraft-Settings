@@ -1,0 +1,8 @@
+{
+  "weather": 3,
+  "irlWeather": false,
+  "rainStrength": 0.58984375,
+  "thunderStrength": 0.0,
+  "enabled": true,
+  "canToggle": true
+}

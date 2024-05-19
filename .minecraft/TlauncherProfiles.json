@@ -1,0 +1,16 @@
+{
+  "clientToken": "28af854c-1653-479c-9847-f13ff0f1b536",
+  "accounts": {
+    "2030786a4fa9479db02355dadcacd62e": {
+      "username": "davidnanu111121",
+      "userID": "davidnanu111121",
+      "displayName": "davidnanu111121",
+      "uuid": "2030786a4fa9479db02355dadcacd62e",
+      "type": "free",
+      "skinType": "tlauncher",
+      "premiumAccount": false
+    }
+  },
+  "selectedAccountUUID": "2030786a4fa9479db02355dadcacd62e",
+  "freeAccountUUID": "2030786a4fa9479db02355dadcacd62e"
+}

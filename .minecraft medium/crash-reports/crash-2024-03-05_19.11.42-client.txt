@@ -1,0 +1,150 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  ModernSound (ModernSound-1.0.0.jar)
+  BetterTabLoadingPlugin (Better_Tab_2.1.jar)
+  Born in a Barn (Born In A Barn 1.8-1.12-1.2.jar)
+  MixinLoader (serverlistbufferfixer-1.0.0.jar)
+  KsyxisLegacyForge (Ksyxis-1.2.2.jar)
+  PhosphorFMLPlugin (phosphor-universal.jar)
+  FMLLoadingPlugin (name-spoofer-1.4.jar)
+  Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (foamfix-0.6.3a-anarchy-1.8.x.jar)
+  MixinLoader (nochathide-1.0.1.jar)
+  ZoomerTweaker (Zoomer-1.1.jar)
+  PolishedGUI (Polished-GUI-1.0.0.jar)
+Contact their authors BEFORE contacting forge
+
+// I let you down. Sorry :(
+
+Time: 05.03.24 19:11
+Description: Initializing game
+
+java.lang.NoClassDefFoundError: net.minecraft.client.renderer.entity.RendererLivingEntity
+	at net.minecraft.client.renderer.entity.RenderManager.<init>(RenderManager.java:148)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:481)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:329)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.client.renderer.entity.RenderManager.<init>(RenderManager.java:148)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:481)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:329)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 293533792 bytes (279 MB) / 671088640 bytes (640 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.2318 Optifine OptiFine_1.8.9_HD_U_M5 32 mods loaded, 32 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{8.0.99.99} [Forge Mod Loader] (forge-1.8.9-11.15.1.2318-1.8.9.jar) 
+	UCH	Forge{11.15.1.2318} [Minecraft Forge] (forge-1.8.9-11.15.1.2318-1.8.9.jar) 
+	UCH	foamfixcore{7.7.4} [FoamFixCore] (minecraft.jar) 
+	UCH	skinlayers3d{1.2.0} [3dSkinLayers] (3dSkinLayers-forge-mc1.8.9-1.2.0.jar) 
+	UCH	entityculling{1.5.0} [EntityCulling] (entityculling-forge-mc1.8.9-1.5.0.jar) 
+	UCH	nochathide{1.0.1} [No Chat Hide] (nochathide-1.0.1.jar) 
+	UCH	serverlistbufferfixer{1.0.0} [Serverlist Buffer Fixer] (serverlistbufferfixer-1.0.0.jar) 
+	UCH	waveycapes{1.2.0} [WaveyCapes] (waveycapes-forge-mc1.8.9-1.2.0.jar) 
+	UCH	oneconfig{0.2.2-alpha191} [OneConfig] (OneConfig (1.8.9-forge).jar) 
+	UCH	modcore{0.1.51} [ModCore] (Sk1er Modcore-0.1.51 (1.8.9).jar) 
+	UCH	toggle_perspective_fixed{1.0.0} [Toggle Perspective Fixed] ([1.8.9] Toggle Perspective Fixed-1.0.jar) 
+	UCH	bettertab{2.1} [Better Tab] (Better_Tab_2.1.jar) 
+	UCH	betterchat{1.5} [Better Chat] (betterchat-1.5.jar) 
+	UCH	cfog{0.1} [Custom Fog] (cfog-0.1.jar) 
+	UCH	clientsidesounds{1} [ClientSideSounds] (clientsidesounds-1.0.jar) 
+	UCH	cloudmc{1.4.1 [1.8.9]} [Cloud Client] (cloud-1.8.jar) 
+	UCH	foamfix{@VERSION@} [FoamFix] (foamfix-0.6.3a-anarchy-1.8.x.jar) 
+	UCH	idletweaks{1.0.5} [IdleTweaks] (IdleTweaks-1.0.5.jar) 
+	UCH	inventoryhud{3.2.1} [Inventory HUD+] (InventoryHUD-1.8.9-3.2.1.jar) 
+	UCH	ksyxis{1.2.2} [Ksyxis] (Ksyxis-1.2.2.jar) 
+	UCH	modernsound{1.0.0} [Modern Sound] (ModernSound-1.0.0.jar) 
+	UCH	name-spoofer{1.4} [Name Spoofer] (name-spoofer-1.4.jar) 
+	UCH	oldinput{1.1.3} [OldInput] (oldinput-1.1.3+1.8.9.jar) 
+	UCH	phosphor-lighting{0.2.9.2} [Phosphor Lighting Engine] (phosphor-universal.jar) 
+	UCH	polishedgui{1.0.0} [Polished GUI] (Polished-GUI-1.0.0.jar) 
+	UCH	polyweather{1.0.0} [PolyWeather] (PolyWeather-1.8.9-forge-1.0.0.jar) 
+	UCH	quickquit{1.0.0} [QuickQuit] (QuickQuit-1.0.0.jar) 
+	UCH	resourcepackmanager{1.2} [Resource Pack Manager] (Resource_Pack_Manager_1.2.jar) 
+	UCH	timetolive{0.1} [Time To Live] (timetolive-0.1.jar) 
+	UCH	vanillahud{2.1.1} [VanillaHUD] (VanillaHUD-1.8.9-forge-2.1.1.jar) 
+	UCH	zoomer_mod{1.1} [Zoomer] (Zoomer-1.1.jar) 
+	Loaded coremods (and transformers): 
+ModernSound (ModernSound-1.0.0.jar)
+  
+BetterTabLoadingPlugin (Better_Tab_2.1.jar)
+  me.aycy.bettertab.asm.GuiPlayerTabOverlayTransformer
+  club.sk1er.mods.core.forge.ClassTransformer
+Born in a Barn (Born In A Barn 1.8-1.12-1.2.jar)
+  com.chocohead.biab.BornInABarn
+MixinLoader (serverlistbufferfixer-1.0.0.jar)
+  
+KsyxisLegacyForge (Ksyxis-1.2.2.jar)
+  
+PhosphorFMLPlugin (phosphor-universal.jar)
+  
+FMLLoadingPlugin (name-spoofer-1.4.jar)
+  me.leafs.fakename.asm.FontTransformer
+Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (foamfix-0.6.3a-anarchy-1.8.x.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+MixinLoader (nochathide-1.0.1.jar)
+  
+ZoomerTweaker (Zoomer-1.1.jar)
+  com.llamalad7.zoomer.tweaker.ClassTransformer
+PolishedGUI (Polished-GUI-1.0.0.jar)
+  
+	GL info: ' Vendor: 'Intel' Version: '3.1.0 - Build 9.17.10.4459' Renderer: 'Intel(R) HD Graphics 3000'
+	Launched Version: 1.8.9-forge1.8.9-11.15.1.2318-1.8.9
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) HD Graphics 3000 GL version 3.1.0 - Build 9.17.10.4459, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: ! §fsnow§9fault §f[16x].zip, Stewound.zip, Smooth font overlay.zip, ! Notpogs GUI overlay.zip
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+	OptiFine Version: OptiFine_1.8.9_HD_U_M5
+	OptiFine Build: 20210124-163719
+	Render Distance Chunks: 8
+	Mipmaps: 0
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 3.1.0 - Build 9.17.10.4459
+	OpenGlRenderer: Intel(R) HD Graphics 3000
+	OpenGlVendor: Intel
+	CpuCount: 4

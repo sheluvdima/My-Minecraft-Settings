@@ -1,0 +1,68 @@
+{
+  "hud": {
+    "scoreboardPoints": false,
+    "scorePointsColor": {
+      "hsba": [
+        0,
+        66,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "scoreboardTitle": false,
+    "persistentTitle": false,
+    "titleColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        96
+      ],
+      "dataBit": -1
+    },
+    "textType": 0,
+    "background": true,
+    "rounded": true,
+    "border": false,
+    "bgColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        77
+      ],
+      "dataBit": -1
+    },
+    "borderColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "dataBit": -1
+    },
+    "cornerRadius": 2.5,
+    "borderSize": 2.0,
+    "defaultPaddingX": 1.0,
+    "paddingX": 3.0078125,
+    "defaultPaddingY": 0.0,
+    "paddingY": 3.0,
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "3",
+      "x": 2.984375,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": false,
+    "showInDebug": false,
+    "showInGuis": false
+  },
+  "enabled": true,
+  "canToggle": true
+}
